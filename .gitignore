@@ -1,0 +1,14 @@
+# Ignore every JSON file
+*.json
+
+# Ignore environment variables
+.env
+
+# Ignore node_modules at any directory depth
+node_modules/
+
+# Ignore the contents of these folders, but keep the folders in Git
+.out/*
+.bin/*
+!.out/.gitkeep
+!.bin/.gitkeep
